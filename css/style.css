@@ -467,14 +467,14 @@ nav {
 
 .scroll-top {
     position: fixed;
-    right: 30px;
+    right: 40px;
     bottom: 30px;
     background-color: #f4a124;
     border: none;
     color: #fff;
-    font-size: 1px;
-    padding: 12px 12px;
-    border-radius: 100%;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 1000;
@@ -489,7 +489,7 @@ nav {
 }
 
 .scroll-top:hover {
-    background-color: #420101;
+    background-color: #d88f1f;
 }
 
 /* Hide menu toggle on large screens */

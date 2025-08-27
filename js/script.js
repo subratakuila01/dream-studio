@@ -71,19 +71,19 @@ if (filters.length > 0) {
 }
 
 // Disable right-click
-document.addEventListener("contextmenu", event => event.preventDefault());
+// document.addEventListener("contextmenu", event => event.preventDefault());
 
-// Disable F12, Ctrl+Shift+I, Ctrl+U, Ctrl+S, Ctrl+Shift+J
-document.addEventListener("keydown", event => {
-  if (
-    event.key === "F12" ||
-    (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "i") ||
-    (event.ctrlKey && event.key.toLowerCase() === "u") ||
-    (event.ctrlKey && event.key.toLowerCase() === "s") ||
-    (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "j")
-  ) {
-    event.preventDefault();
-    event.stopPropagation();
-    alert("Developer tools are disabled on this site.");
-  }
-});
+// // Disable F12, Ctrl+Shift+I, Ctrl+U, Ctrl+S, Ctrl+Shift+J
+// document.addEventListener("keydown", event => {
+//   if (
+//     event.key === "F12" ||
+//     (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "i") ||
+//     (event.ctrlKey && event.key.toLowerCase() === "u") ||
+//     (event.ctrlKey && event.key.toLowerCase() === "s") ||
+//     (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "j")
+//   ) {
+//     event.preventDefault();
+//     event.stopPropagation();
+//     alert("Developer tools are disabled on this site.");
+//   }
+// });
